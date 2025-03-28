@@ -89,7 +89,7 @@ function App() {
           <img 
             src={imageUrls[1]} 
             alt="Imagen 2" 
-            className="absolute top-1/2 right-20 w-32 h-32 z-10 animate-spin"
+            className="absolute top-1/2 right-20 w-40 h-40 z-10 animate-spin"
           />
           <img 
             src={imageUrls[2]} 
@@ -101,7 +101,7 @@ function App() {
       
       {/* Calculadora centrada */}
       <div className="max-w-md mx-auto pt-10 p-6 bg-transparent rounded-lg">
-        <h1 className="block font-bold text-white font-serif text-5xl text-center">Calculadora</h1>
+        <h1 className="block font-bold text-white font-serif text-5xl text-center">CalculaDOUra</h1>
         
         <div className="mb-4">
           <label className="block text-white font-serif mb-2 text-xl">Número 1:</label>

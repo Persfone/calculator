@@ -74,7 +74,7 @@ function App() {
   };
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-full">
       {/* Audio oculto */}
       <audio ref={audioRef} src={soundUrl} />
       
@@ -94,7 +94,7 @@ function App() {
           <img 
             src={imageUrls[2]} 
             alt="Imagen 3" 
-            className="absolute bottom-20 left-20  w-50 h-50 z-10 animate-pulse"
+            className="absolute -bottom-52 left-20 w-50 h-50 z-0 animate-pulse"
           />
         </>
       )}
